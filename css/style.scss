@@ -1,0 +1,49 @@
+@import "reset";
+@import "fontawesome/font-awesome";
+@import "fonts";
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Global styles
+   ========================================================================== */
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+.main-container {
+	position: relative;
+	min-height: 100%;
+	height:100%;
+	font-size: 100%;
+}
+
+.main-content {
+	padding-bottom: 60px; /*same value as height of footer*/
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+
+p {
+	/*position: relative;*/
+	/*sample*/
+}
+
+p::after {
+	/*position:absolute;
+	content: "\f059";
+	font-family: FontAwesome;*/
+	/*sample*/
+}
